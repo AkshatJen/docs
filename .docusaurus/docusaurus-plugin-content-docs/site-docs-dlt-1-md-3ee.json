@@ -1,0 +1,17 @@
+{
+  "id": "dlt1",
+  "title": "DLT Audit",
+  "description": "import useBaseUrl from '@docusaurus/useBaseUrl';",
+  "source": "@site/docs/dlt1.md",
+  "permalink": "/docs/docs/dlt1",
+  "sidebar_label": "DLT audit",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Reports",
+    "permalink": "/docs/docs/rep1"
+  },
+  "next": {
+    "title": "Folders",
+    "permalink": "/docs/docs/fol1"
+  }
+}

@@ -11,37 +11,30 @@
 // List of projects/orgs using your project for the users page.
 const users = [
   {
-    caption: 'User',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/image.jpg'.
-    image: '/img/undraw_open_source.svg',
-    infoLink: 'https://www.facebook.com',
+    image: '/img/undraw_air.svg',
+    infoLink: 'https://www.geckogovernance.io/contact/',
     pinned: true,
   },
 ];
 
 const siteConfig = {
-  title: 'Documentation', // Title for your website.
-  tagline: 'Docs website by GECKO',
-  url: 'https://akshatjen.github.io', // Your website URL
-  baseUrl: '/docs/', // Base URL for your project */
-  // For github.io type URLs, you would set the url and baseUrl like:
-  //   url: 'https://facebook.github.io',
-  //   baseUrl: '/test-site/',
+  title: 'GECKO Docs v1.0.10', // Title for your website.
+  tagline: 'One stop for all docs, help and support',
+  url: 'http://GECKODocs.github.io', // Replace USERNAME with your GitHub username.
+  baseUrl: '/Docs/', // The name of your GitHub project.
 
   // Used for publishing and more
-  projectName: 'docs',
-  organizationName: 'AkshatJen',
-  // For top-level user or org sites, the organization is still the same.
-  // e.g., for the https://JoelMarcey.github.io site, it would be set like...
-  //   organizationName: 'JoelMarcey'
-
-  // For no header links in the top nav bar -> headerLinks: [],
+  projectName: 'Docs',
+  organizationName: 'GECKODocs',
+  
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
+    {doc: 'gs1', label: 'Docs'},
+    {doc: 'api1', label: 'API'},
     {page: 'help', label: 'Help'},
     {blog: true, label: 'Blog'},
+    {video : true , label : 'Videos'}
   ],
 
   // If you have users set above, you add it here:
@@ -54,8 +47,8 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: '#710338',
-    secondaryColor: '#4f0227',
+    primaryColor: '#5C3A76',
+    secondaryColor: '#9269B1',
   },
 
   /* Custom fonts for website */
@@ -73,11 +66,11 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} GECKO Governance`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
-    theme: 'default',
+    theme: 'arta',
   },
 
   // Add custom scripts here that would be placed in <script> tags.

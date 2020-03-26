@@ -1,0 +1,7 @@
+{
+  "id": "doc1",
+  "title": "doc1",
+  "description": "import useBaseUrl from '@docusaurus/useBaseUrl';",
+  "source": "@site/docs/doc1.md",
+  "permalink": "/docs/docs/doc1"
+}

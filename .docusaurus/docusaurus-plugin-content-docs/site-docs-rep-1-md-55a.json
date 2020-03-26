@@ -1,0 +1,17 @@
+{
+  "id": "rep1",
+  "title": "Reports",
+  "description": "import useBaseUrl from '@docusaurus/useBaseUrl';",
+  "source": "@site/docs/rep1.md",
+  "permalink": "/docs/docs/rep1",
+  "sidebar_label": "Reports",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Calendar",
+    "permalink": "/docs/docs/cal1"
+  },
+  "next": {
+    "title": "DLT Audit",
+    "permalink": "/docs/docs/dlt1"
+  }
+}

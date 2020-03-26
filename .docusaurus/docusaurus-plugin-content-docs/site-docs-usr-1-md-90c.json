@@ -1,0 +1,17 @@
+{
+  "id": "usr1",
+  "title": "Users",
+  "description": "import useBaseUrl from '@docusaurus/useBaseUrl';",
+  "source": "@site/docs/usr1.md",
+  "permalink": "/docs/docs/usr1",
+  "sidebar_label": "Users",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Folders",
+    "permalink": "/docs/docs/fol1"
+  },
+  "next": {
+    "title": "Getting Started with API",
+    "permalink": "/docs/docs/api1"
+  }
+}

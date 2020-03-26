@@ -13,7 +13,8 @@ class Footer extends React.Component {
     const docsUrl = this.props.config.docsUrl;
     const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
     const langPart = `${language ? `${language}/` : ''}`;
-    return `${baseUrl}${docsPart}${langPart}${doc}`;
+   // const langPart = '';
+    return `${baseUrl}${docsPart}${doc}`;
   }
 
   pageUrl(doc, language) {
@@ -37,14 +38,14 @@ class Footer extends React.Component {
           </a>
           <div>
             <h5>Docs</h5>
-            <a href={this.docUrl('doc1.html', this.props.language)}>
-              Getting Started (or other categories)
+            <a href={this.docUrl('gs1.html', this.props.language)}>
+              Getting Started
             </a>
-            <a href={this.docUrl('doc2.html', this.props.language)}>
-              Guides (or other categories)
+            <a href={this.docUrl('db1.html', this.props.language)}>
+              Dashboard
             </a>
-            <a href={this.docUrl('doc3.html', this.props.language)}>
-              API Reference (or other categories)
+            <a href={this.docUrl('api2.html', this.props.language)}>
+              API Reference
             </a>
           </div>
           <div>
@@ -53,7 +54,7 @@ class Footer extends React.Component {
               User Showcase
             </a>
             <a
-              href="https://stackoverflow.com/questions/tagged/"
+              href="https://stackoverflow.com/"
               target="_blank"
               rel="noreferrer noopener">
               Stack Overflow
@@ -70,20 +71,12 @@ class Footer extends React.Component {
             <h5>More</h5>
             <a href={`${this.props.config.baseUrl}blog`}>Blog</a>
             <a href="https://github.com/">GitHub</a>
-            <a
-              className="github-button"
-              href={this.props.config.repoUrl}
-              data-icon="octicon-star"
-              data-count-href="/facebook/docusaurus/stargazers"
-              data-show-count="true"
-              data-count-aria-label="# stargazers on GitHub"
-              aria-label="Star this project on GitHub">
-              Star
-            </a>
             {this.props.config.twitterUsername && (
               <div className="social">
                 <a
-                  href={`https://twitter.com/${this.props.config.twitterUsername}`}
+                  href={`https://twitter.com/${
+                    this.props.config.twitterUsername
+                  }`}
                   className="twitter-follow-button">
                   Follow @{this.props.config.twitterUsername}
                 </a>
@@ -105,7 +98,7 @@ class Footer extends React.Component {
           </div>
         </section>
 
-        <a
+       {/* <a
           href="https://opensource.facebook.com/"
           target="_blank"
           rel="noreferrer noopener"
@@ -117,6 +110,7 @@ class Footer extends React.Component {
             height="45"
           />
         </a>
+       */}
         <section className="copyright">{this.props.config.copyright}</section>
       </footer>
     );

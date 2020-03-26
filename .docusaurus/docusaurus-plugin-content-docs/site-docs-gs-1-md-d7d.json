@@ -1,0 +1,13 @@
+{
+  "id": "gs1",
+  "title": "First time Setup",
+  "description": "import useBaseUrl from '@docusaurus/useBaseUrl';",
+  "source": "@site/docs/gs1.md",
+  "permalink": "/docs/docs/gs1",
+  "sidebar_label": "Get started",
+  "sidebar": "someSidebar",
+  "next": {
+    "title": "Finalize the User Setup",
+    "permalink": "/docs/docs/gs2"
+  }
+}

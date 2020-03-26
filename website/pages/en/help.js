@@ -22,7 +22,7 @@ function Help(props) {
   const supportLinks = [
     {
       content: `Learn more using the [documentation on this site.](${docUrl(
-        'doc1.html',
+        'gs1',
       )})`,
       title: 'Browse Docs',
     },
@@ -43,7 +43,7 @@ function Help(props) {
           <header className="postHeader">
             <h1>Need help?</h1>
           </header>
-          <p>This project is maintained by a dedicated group of people.</p>
+          <p>This documentation tool is actually maintained by dedicated people at <a href="https://www.docusaurus.io">Docusaurus</a></p>
           <GridBlock contents={supportLinks} layout="threeColumn" />
         </div>
       </Container>

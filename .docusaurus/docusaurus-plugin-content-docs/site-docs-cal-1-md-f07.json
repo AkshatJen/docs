@@ -1,0 +1,17 @@
+{
+  "id": "cal1",
+  "title": "Calendar",
+  "description": "import useBaseUrl from '@docusaurus/useBaseUrl';",
+  "source": "@site/docs/cal1.md",
+  "permalink": "/docs/docs/cal1",
+  "sidebar_label": "Calendar",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Activity",
+    "permalink": "/docs/docs/act1"
+  },
+  "next": {
+    "title": "Reports",
+    "permalink": "/docs/docs/rep1"
+  }
+}

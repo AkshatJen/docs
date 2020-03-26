@@ -1,0 +1,17 @@
+{
+  "id": "db2",
+  "title": "Dashboard Second-half",
+  "description": "import useBaseUrl from '@docusaurus/useBaseUrl';",
+  "source": "@site/docs/db2.md",
+  "permalink": "/docs/docs/db2",
+  "sidebar_label": "Project and tasks",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Dashboard",
+    "permalink": "/docs/docs/db1"
+  },
+  "next": {
+    "title": "Projects",
+    "permalink": "/docs/docs/pr1"
+  }
+}

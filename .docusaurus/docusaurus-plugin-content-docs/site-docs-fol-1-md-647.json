@@ -1,0 +1,17 @@
+{
+  "id": "fol1",
+  "title": "Folders",
+  "description": "import useBaseUrl from '@docusaurus/useBaseUrl';",
+  "source": "@site/docs/fol1.md",
+  "permalink": "/docs/docs/fol1",
+  "sidebar_label": "Folder",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "DLT Audit",
+    "permalink": "/docs/docs/dlt1"
+  },
+  "next": {
+    "title": "Users",
+    "permalink": "/docs/docs/usr1"
+  }
+}

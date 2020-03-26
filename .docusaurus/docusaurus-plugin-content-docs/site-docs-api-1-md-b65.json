@@ -1,0 +1,17 @@
+{
+  "id": "api1",
+  "title": "Getting Started with API",
+  "description": "This is an ongoing piece of development work and is currently in progress . Please check back later and hopefully you will be delighted to find some APIs to play around with :)",
+  "source": "@site/docs/api1.md",
+  "permalink": "/docs/docs/api1",
+  "sidebar_label": "API Manual",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Users",
+    "permalink": "/docs/docs/usr1"
+  },
+  "next": {
+    "title": "Using API",
+    "permalink": "/docs/docs/api2"
+  }
+}
