@@ -50,7 +50,7 @@ function Feature({imageUrl, title, description}) {
         <div className="text--center">
           <picture>
             <source type="image/svg" srcSet={imgUrl} alt={title}/>
-            <img src={imgUrl}/>
+            <img className={styles.main} src={imgUrl} alt={title} />
           </picture>
         </div>
       )}
@@ -66,7 +66,10 @@ const Main = ({imageUrl, title, description}) =>{
     <div className={classnames('col col--12', styles.main)}>
       {imgUrl && (
         <div className="text--center">
-          <img className={styles.main} src={imgUrl} alt={title} />
+          <picture>
+            <source type="image/svg" srcSet={imgUrl} alt={title}/>
+            <img className={styles.main} src={imgUrl} alt={title} />
+          </picture>
         </div>
       )}
       <h3>{title}</h3>
