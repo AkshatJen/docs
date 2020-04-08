@@ -48,7 +48,10 @@ function Feature({imageUrl, title, description}) {
     <div className={classnames('col col--6', styles.feature)}>
       {imgUrl && (
         <div className="text--center">
-          <img className={styles.featureImage} src={imgUrl} alt={title} />
+          <picture>
+            <source type="image/svg" srcSet={imgUrl} alt={title}/>
+            <img src={imgUrl}/>
+          </picture>
         </div>
       )}
       <h3>{title}</h3>
